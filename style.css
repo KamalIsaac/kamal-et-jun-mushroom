@@ -524,3 +524,58 @@ footer p {
     height: 120px;
   }
 }
+
+/* Harga & paket wisata */
+.harga {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--moss);
+  margin-bottom: 8px;
+}
+
+.harga span {
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.paket {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 24px;
+  margin-top: 28px;
+}
+
+.paket-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+  border-radius: 16px;
+  border-top: 6px solid var(--moss);
+  padding: 24px;
+}
+
+.paket-card h3 {
+  font-size: 1.25rem;
+}
+
+.durasi {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.paket-list {
+  margin: 0 0 20px;
+  padding-left: 20px;
+  flex: 1;
+}
+
+.paket-list li {
+  margin-bottom: 6px;
+}
+
+.paket-card .btn {
+  text-align: center;
+}
