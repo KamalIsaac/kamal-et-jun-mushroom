@@ -14,12 +14,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- <div class="topbar">
+      <p>Hubungi kami untuk info lebih lanjut: <a href="https://wa.me/628122943156?text=Halo%2C%20saya%20ingin%20tanya%20bibit%20jamur.">0812-2943-156</a></p>
+      <p class="sosmed">
+        <a href="https://www.instagram.com/jamur_kaliurang" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.tiktok.com/@kamaletjunjamur" target="_blank" rel="noopener">TikTok</a>
+      </p>
+    </div> -->
     <nav class="navbar">
       <a class="logo" href="#top">
         <img
@@ -51,7 +58,11 @@
     <main id="top">
       <section class="hero">
         <div class="hero-text">
-          <h1>Bibit jamur tiram dan jamur kuping, siap tanam di baglog Anda</h1>
+          <p class="eyebrow">Pembibitan jamur · Kaliurang, Sleman</p>
+          <h1>
+            Bibit jamur tiram dan jamur kuping,
+            <span class="hl">siap tanam</span> di baglog Anda
+          </h1>
           <p>
             Pusat pembibitan di Kaliurang, Sleman. Cocok untuk pemula, bisa
             dikirim ke luar kota, dan konsultasinya gratis.
@@ -65,14 +76,34 @@
             <a class="btn btn-ghost" href="#produk">Lihat produk</a>
           </div>
         </div>
-        <figure class="hero-img">
+        <div class="hero-img">
           <img
+            class="hv-main"
             src="img/hero.jpg"
             alt="Jamur tiram dari Kamal et Jun Mushroom"
             width="800"
             height="1000"
           />
-        </figure>
+          <figure class="hv-chip hv-a">
+            <img
+              src="img/tiram.jpg"
+              alt="Bibit jamur tiram"
+              width="132"
+              height="132"
+            />
+            <figcaption>Jamur tiram</figcaption>
+          </figure>
+          <figure class="hv-chip hv-b">
+            <img
+              src="img/kuping.jpg"
+              alt="Bibit jamur kuping"
+              width="132"
+              height="132"
+            />
+            <figcaption>Jamur kuping</figcaption>
+          </figure>
+          <span class="sticker" aria-hidden="true">Konsultasi gratis</span>
+        </div>
       </section>
 
       <section id="tentang" class="section">
@@ -83,10 +114,27 @@
           berpengalaman.
         </p>
         <ul class="checks">
-          <li>Bibit berkualitas</li>
-          <li>Cocok untuk pemula</li>
-          <li>Bisa kirim luar kota</li>
-          <li>Konsultasi gratis</li>
+          <li>
+            Bibit berkualitas<span
+              >Bibit jamur tiram dan kuping untuk petani pemula maupun
+              berpengalaman.</span
+            >
+          </li>
+          <li>
+            Cocok untuk pemula<span
+              >Bibit siap tanam ke baglog, mudah dimulai dari nol.</span
+            >
+          </li>
+          <li>
+            Bisa kirim luar kota<span
+              >Pesan dari mana saja, bibit bisa dikirim ke luar kota.</span
+            >
+          </li>
+          <li>
+            Konsultasi gratis<span
+              >Tanya bibit, stok, atau cara budidaya lewat WhatsApp.</span
+            >
+          </li>
         </ul>
       </section>
 
@@ -129,7 +177,7 @@
           </article>
           <article class="card">
             <img
-              src="img/kuping.jpg"
+              src="img/kuping2.jpeg"
               alt="Jamur kuping segar"
               loading="lazy"
               width="600"
@@ -170,7 +218,7 @@
       </section>
 
       <!-- Testimoni: tambahkan section di sini begitu ada 2–3 ulasan pembeli -->
-      <section id="wisata" class="section alt">
+      <section id="wisata" class="section dark">
         <h2>Wisata edukasi jamur</h2>
         <p>
           Kenali budidaya jamur langsung di rumah jamur kami. Pilih paket sesuai
@@ -631,21 +679,59 @@
     >
 
     <footer>
-      <p class="sosmed">
-        <a
-          href="https://www.instagram.com/jamur_kaliurang"
-          target="_blank"
-          rel="noopener"
-          >Instagram</a
-        >
-        <a
-          href="https://www.tiktok.com/@kamaletjunjamur"
-          target="_blank"
-          rel="noopener"
-          >TikTok</a
-        >
-      </p>
-      <p>© 2026 Kamal et Jun Mushroom</p>
+      <div class="foot-grid">
+        <div>
+          <a class="logo" href="#top">
+            <img src="img/logo.png" alt="" width="40" height="40" />
+            <span>Kamal et Jun Mushroom</span>
+          </a>
+          <p>
+            Pusat pembibitan jamur tiram dan jamur kuping di Kaliurang, Sleman.
+          </p>
+          <p class="sosmed">
+            <a
+              href="https://www.instagram.com/jamur_kaliurang"
+              target="_blank"
+              rel="noopener"
+              >Instagram</a
+            >
+            <a
+              href="https://www.tiktok.com/@kamaletjunjamur"
+              target="_blank"
+              rel="noopener"
+              >TikTok</a
+            >
+          </p>
+        </div>
+        <div>
+          <h3>Kontak kami</h3>
+          <p>
+            <a
+              href="https://wa.me/628122943156?text=Halo%2C%20saya%20ingin%20tanya%20bibit%20jamur."
+              >WhatsApp 0812-2943-156</a
+            >
+          </p>
+          <p>Kaliurang, Hargobinangun, Pakem, Sleman, Yogyakarta</p>
+        </div>
+        <div>
+          <h3>Jam operasional</h3>
+          <p>
+            Senin–Jumat: 08.00–16.00 WIB<br />Sabtu: 08.00–12.00 WIB<br />Minggu:
+            tutup
+          </p>
+        </div>
+        <div>
+          <h3>Menu</h3>
+          <ul>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#produk">Produk</a></li>
+            <li><a href="#wisata">Wisata edukasi</a></li>
+            <li><a href="#galeri">Galeri</a></li>
+            <li><a href="#lokasi">Lokasi</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="foot-bottom">© 2026 Kamal et Jun Mushroom</p>
     </footer>
 
     <dialog id="lb">
@@ -653,43 +739,6 @@
       <button class="btn btn-ghost" type="button" id="lb-close">Tutup</button>
     </dialog>
 
-    <script>
-      function toggleMenu(btn) {
-        const nav = document.querySelector(".navbar");
-        const open = nav.classList.toggle("active");
-        btn.setAttribute("aria-expanded", open);
-      }
-
-      document.querySelectorAll(".nav-links a").forEach((a) =>
-        a.addEventListener("click", () => {
-          document.querySelector(".navbar").classList.remove("active");
-        }),
-      );
-
-      const grid = document.getElementById("galeri-grid");
-      const more = document.getElementById("more");
-      more.addEventListener("click", () => {
-        const open = grid.classList.toggle("open");
-        more.textContent = open
-          ? "Tampilkan lebih sedikit"
-          : "Lihat semua foto";
-      });
-
-      const lb = document.getElementById("lb");
-      const lbImg = lb.querySelector("img");
-      grid.addEventListener("click", (e) => {
-        const img = e.target.closest("button")?.querySelector("img");
-        if (!img) return;
-        lbImg.src = img.src;
-        lbImg.alt = img.alt;
-        lb.showModal();
-      });
-      document
-        .getElementById("lb-close")
-        .addEventListener("click", () => lb.close());
-      lb.addEventListener("click", (e) => {
-        if (e.target === lb) lb.close();
-      });
-    </script>
+    <script src="script.js" defer></script>
   </body>
 </html>
